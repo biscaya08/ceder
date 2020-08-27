@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'ceder'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e5e13a6af6c6413ebd793c05e65db731 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_6ae1a396f9f449009f23c2ea2e4a2f7e }}
         package: ${{env.DOTNET_ROOT}}/myapp 
